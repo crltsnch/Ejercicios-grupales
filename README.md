@@ -29,6 +29,7 @@ if __name__ == '__main__':
     fptr.close()
     ```
     
+    
     Código del ejercicio 2:
     ```
     def compareTriplets(a, b):
