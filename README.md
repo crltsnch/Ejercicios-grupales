@@ -1,5 +1,6 @@
 # Ejercicios-grupales
 Código del ejercicio 1:
+
 ' ' '
 import math
 import os
