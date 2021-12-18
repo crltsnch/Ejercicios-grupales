@@ -19,6 +19,16 @@ def gameOfStones(n):
         ganador ="P2 is the winner"
     return ganador
 
+def jugadaoptima(n):
+    jugadabuena=0
+    modulo=n%7
+    if(modulo>=2 and modulo<=3):
+        jugadabuena=2
+    elif(modulo==4):
+        jugadabuena=3
+    elif(modulo>=5 and modulo<=6):
+        jugadabuena=5
+    return jugadabuena
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
