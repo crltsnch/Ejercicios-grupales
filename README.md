@@ -30,7 +30,7 @@ if __name__ == '__main__':
     ```
     
     
-    Código del ejercicio 2:
+ Código del ejercicio 2:
     ```
     def compareTriplets(a, b):
     puntosA=0
