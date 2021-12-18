@@ -17,7 +17,7 @@ def compareTriplets(a, b):
     return puntosTotales
 
 if __name__ == '__main__':
-     fptr = open(os.environ['OUTPUT_PATH'] + 'solucion2.txt', 'w')
+    fptr = open(os.environ['OUTPUT_PATH'] + 'solucion2.txt', 'w')
      
     print("Escribe las notas de a")
     a = list(map(int, input().rstrip().split()))
