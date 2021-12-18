@@ -18,9 +18,14 @@ def aVeryBigSum(ar):
     return suma
 
 if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+    fptr = open(os.environ['OUTPUT_PATH'] + 'solucion3.txt', 'w')
+    print("Escribe un número")
     ar_count = int(input().strip())
+    print("Escribe la lista de números")
     ar = list(map(int, input().rstrip().split()))
+
     result = aVeryBigSum(ar)
+
     fptr.write(str(result) + '\n')
-    ptr.close()
+
+    fptr.close()
